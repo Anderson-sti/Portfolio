@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        #logoo {
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        #imglogo {
+            width: 200px;
+        }
+
+        label {
+            font-weight: 500;
+        }
+
+        body {
+            background-color: rgb(207, 252, 252);
+        }
+    </style>
+</head>
+
+<body>
+    <thead>
+        <div id="logoo">
+            <img id="imglogo" src="https://adasi.com.br/wp-content/uploads/2021/12/logo.png" alt="logo">
+            <h2>Formulario de Cadastro</h2>
+            <p>Preencha todos os campos abaixo para efetuar seu cadastro</p>
+        </div>
+    </thead>
+    <br><br>
+    <div class="container">
+        <h4>Dados Cadastrais</h4>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Nome</label>
+                    <input class="input-group" type="text" name="nome" id="tamanho" required>
+                </div>
+                <div class="col-md-6">
+                    <label>Sobrenome</label><br>
+                    <input class="input-group" type="text" name="Sobrenome" id="tamanho" required>
+                </div>
+            </div>
+            <br>
+            <label>CPF</label><br>
+            <input class="input-group" type="number" name="number" required><br>
+
+            <label>Email</label><br>
+            <input class="input-group" type="email" name="email" required placeholder="seu@email.com"><br>
+
+            <label>Endereço</label><br>
+            <input class="input-group" type="text" name="endereço" required placeholder="Rua, Av..."><br>
+
+            <Label>Bairro</Label><br>
+            <input class="input-group" type="text" name="bairro" required><br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <label> Cidade</label><br>
+                    <select name="cidade" class="input-group">
+                        <option value="">Escolha...</option>
+                        <option value="Caruaru">Caruaru</option>
+                        <option value="Bezerros">Bezerros</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label> Estado</label><br>
+                    <select name="cidade" class="input-group">
+                        <option value="">Escolha...</option>
+                        <option value="pernambuco">pernambuco</option>
+                        <option value="SaoPaulo">São Paulo</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label>Cep</label><br>
+                    <input type="number" name="cep" required class="input-group">
+                </div>
+
+            </div>
+            <hr>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="option5">
+                <label class="form-check-label">Aceito as condições</label>
+            </div>
+            <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="option6">
+                <label class="form-check-label">Receber novidades e atualizações no e-mail</label>
+            </div>
+            <hr>
+            <h4>Pagamento</h4>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radios">
+                <label class="form-check-label">Cartão de crédito</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radios">
+                <label class="form-check-label">Boleto</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="radios">
+                <label class="form-check-label">Pix</label>
+            </div>
+            <hr>
+            <button type="submit" class="btn btn-primary btn-sm">Continuar o cadastro</button>
+            <br>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>

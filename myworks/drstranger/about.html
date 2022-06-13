@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="drstrange.css">
+    <link rel="icon" type="image/x-icon" href="img/dr.png">
+    <title>Dr Strange</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>
+            <a class="index-a" href="index.html">
+                <h1>Doctor Strange</h1>
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
+                <a class="index-b nav-link active" aria-current="page" href="drstrange.html">Home</a>
+            </li>
+            <li class="list-item">
+                <a class="index-b nav-link" href="about.html">About</a>
+            </li>
+            <li class="list-item">
+                <a class="index-b nav-link" href="movies.html">Movies</a>
+            </li>
+        </ul>
+        <div class="menu" id="toggleButton">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <h1 class="about1">Os poderes do Doutor Estranho</h1>
+            <img class="about2" src="img/benedict-cumberbatch-dr-strange.gif">
+            <p class="about4">Um dos mais poderosos feiticeiros de todos os tempos, Doutor Estranho possui forças e habilidades que
+                ultrapassam quase todos.
+                <br>
+                O poder do Mago Supremo vem de 3 forças primárias: a invocação de entidades ou objetos místicos, a
+                manipulação da energia mágica do universo e os seus recursos psíquicos interiores. Embora o limite total
+                das
+                suas capacidades seja desconhecido, destacamos as seguintes:
+            </p>
+            <ul class="about3">
+                <li>Teletransporte</li>
+                <li>Projeção astral e projeção de pensamento</li>
+                <li>Projeção e manipulação de energia</li>
+                <li>Viagens no tempo e viagens interdimensionais</li>
+                <li>Criação de ilusões</li>
+                <li>Transformação de matéria</li>
+                <li>Animação de objetos inanimados</li>
+                <li>Possessão mental</li>
+                <li>Mesmerismo (cura pelo magnetismo e hipnotismo)</li>
+            </ul>
+            <p class="about4">Além disso, Doutor Estranho é conhecido pelo seu pensamento estratégico e por ser um exímio atleta de
+                artes
+                marciais.</p>
+            <h1 class="about1">Mas até o poderoso Dr. Estranho tem fraquezas</h1>
+            <img class="about5"src="img/benedict-cumberbatch-middle-finger.gif">
+            <p class="about4">Os poderes de Doutor Estranho são menos eficazes contra inimigos que usam a ciência como arma. Stephen
+                consegue ultrapassar esta limitação, mas exige muito esforço por parte dele.
+                <br>
+                Como Estranho depende de gestos manuais e palavras mágicas para usar seus poderes místicos, é necessário
+                ter
+                especial atenção com suas mãos e voz. Por exemplo: se um oponente tornar ele mudo, o herói ficará com
+                seus
+                poderes limitados.
+            </p>
+            <h1 class="about1">Um dos super-heróis com os melhores utensílios mágicos</h1>
+            <img class="about6" src="img/olho-de-agamoto.gif">
+            <p class="about4">Se tem algo pelo qual o Doutor Estranho é famoso, são seus artefatos mágicos. Dois deles são
+                especialmente reconhecidos pelos fãs dos quadrinhos: o Olho de Agamotto e a Capa da Levitação.
+                <br>
+                O Olho de Agamotto é um amuleto usado por Doutor Estranho cuja luz que irradia expulsa seres malignos,
+                penetra ilusões, sonda mentes, abre portais para outras dimensões, etc. O Olho só pode ser usado por
+                aqueles com elevada moral.
+                <br>
+                A Capa da Levitação torna possível a Estranho voar sem dispensar sua energia mágica. Um objeto
+                indestrutível, essencial para confundir inimigos e usado como escudo protetor.
+                <br>
+                Outros utensílios de magia essenciais são a Esfera de Agamotto, o Livro de Vishanti e Darkhold.
+                <br>
+                A Esfera de Agamotto serve para Estranho observar acontecimentos em qualquer parte deste ou outros
+                mundos. O Livro de Vishanti e o Darkhold são livros místicos que podem ser usados como armas ou fontes
+                de energia mágica.
+            </p>
+        </div>
+    </section>
+    <footer class="footer text-center py-5">
+        <div>
+            <p class="m-0">Copyright &copy; Anderson Santiago 2022</p>
+        </div>
+    </footer>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggleButton');
+    const naviList = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+        naviList.classList.toggle('active');
+    })
+</script>
+
+</html>

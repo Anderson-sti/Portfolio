@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário ADASI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="exeseven1.css">
+    <link rel="icon" type="imagem/png" href="https://www.pngmart.com/files/12/Yellow-Laughing-Emoji-PNG-File.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img" src="https://adasi.com.br/wp-content/uploads/2021/12/logo.png" alt="Logo" width="130px">
+                </div>
+                <div class="col-md-6">
+                    <nav>
+                        <ul class="list-inline">
+                            <button class="btn" type="button"><a class="decore" href="exeseven1.html">INICIO</a></button>
+                            <button class="btn" type="button"><a class="decore" href="" target="_blank">BLOG</a></a></button>
+                            <button class="btn" type="button"><a class="decore" href="" target="_blank">CONTATO</a></button>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <nav class="asd">
+                    <ul class="list-unstyled">
+                        <li><a href="exeseven1.html" style="text-decoration:none"> INICIO</a></li>
+                        <li><a href="" style="text-decoration:none" target="_blank">SOBRE</a></li>
+                        <li><a href="" style="text-decoration:none" target="_blank">O QUE FAZEMOS</a></li>
+                        <li><a href="" style="text-decoration:none" target="_blank">PROJETOS</a> </li>
+                        <li><a href="" style="text-decoration:none" target="_blank">BLOG</a></li>
+                        <li><a href="" style="text-decoration:none" target="_blank">CONTATOS</a> </li>
+                        <li><a href="https://hugocalixto.com.br/wp-content/uploads/sites/22/2020/07/error-404-1.png" style="text-decoration:none" target="_blank">ORÇAMENTO</a> </li>
+                    </ul>
+                </nav>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Trabalhe na Adasi</h5>
+                        <p class="card-text">Trabalhar na Adasi é a melhor experiencia que você tera.<br>
+                            <br>Benefecios:
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Resolver Problemas</li>
+                        <li class="list-group-item">Salario Minimo: $000,00</li>
+                        <li class="list-group-item">Cesta Basica: $000,00</li>
+                        <li class="list-group-item">Ajuda de Custo: $000,00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <form action="">
+                    <h1 class="rounded">Formulario</h1>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Nome e Sobrenome</span>
+                        </div>
+                        <input type="text" aria-label="Nome" class="form-control"
+                            placeholder="Nome" required>
+                        <input type="text" aria-label="sobrenome" class="form-control"
+                            placeholder="Sobrenome" required>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">CPF</span>
+                        </div>
+                        <input type="number" aria-label="Nome" class="form-control text" placeholder="Digite Seu CPF:"
+                            required>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span for="date" class="input-group-text">Data de Nascimento</span>
+                        </div>
+                        <input type="datetime-local" id="date" required>
+
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Email e Senha</span>
+                        </div>
+                        <input type="email" aria-label="email" class="form-control" placeholder="Email@example.com:"
+                            required>
+                        <input type="password" aria-label="sobrenome" class="form-control"
+                            placeholder="Digite Sua Senha:" min="8" max="12" required>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Perfil:</span>
+                        </div>
+                        <select class="form-select" required>
+                            <option value="">Click para Definir:</option>
+                            <option value="adm">Administrador</option>
+                            <option value="fnr">Financeiro</option>
+                            <option value="stq">Estoquista</option>
+                            <option value="vdd">Vendedor</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Linguagens:</span>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">JavaScript</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">PHP</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                            <label class="form-check-label" for="inlineCheckbox3">Python</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                            <label class="form-check-label" for="inlineCheckbox4">C++</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                            <label class="form-check-label" for="inlineCheckbox5">Java</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option6">
+                            <label class="form-check-label" for="inlineCheckbox6">NodeJS</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option7">
+                            <label class="form-check-label" for="inlineCheckbox7">Ruby</label>
+                        </div>
+                    </div>
+                    <br><br>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                    <button type="reset" class="btn btn-secondary">Limpar</button>
+                    <hr>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li><strong class="as">Links</strong></li>
+                            <li><a class="as" href="" target="_blank"> Como Chegar</a> </li>
+                            <li><a class="as" href="" target="_blank">contato@seusite.com.br</a></li>
+                            <li><a class="as" href="" target="_blank">(99) 99999-9999</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6">
+                    <nav>
+                        <ul class="list-unstyled">
+                            <li><strong class="as">Todos</strong></li>
+                            <li><a class="as" href="" target="_blank">Aplicativos</a></li>
+                            <li><a class="as" href="" target="_blank">e-commerce</a></li>
+                            <li><a class="as" href="" target="_blank">Sistemas Web</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
+        <hr>
+        <p class="text-center"><a href="" target="_blank">seusite.com.br</a></p>
+    </footer>
+</body>
+</html>

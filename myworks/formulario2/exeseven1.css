@@ -1,0 +1,73 @@
+header {
+    background-color: rgb(248, 240, 240);
+    min-height: 64px;
+}
+
+section nav {
+    background-color: rgb(231, 231, 243);
+    padding: 3rem;
+}
+
+footer {
+    background-color: #221f3c;
+    padding: 2rem;
+}
+
+section {
+    background-color: lightgrey;
+}
+
+.rounded {
+    text-align: center;
+}
+
+.decore {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.asd {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.as {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media all and (max-width: 767px) {
+    .img {
+        position: relative;
+        left: 37%;
+    }
+    .list-inline {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .img {
+        position: relative;
+        left: 34%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .img {
+        position: relative;
+        left: 30%;
+    }
+    .decore {
+        font-size: 1rem;
+    }
+    .text-white {
+        padding: 0 0 0 0;
+    }
+}
+@media all and (max-width: 375px) {
+    .text-white {
+        font-size: 0.8rem;
+    }
+}
